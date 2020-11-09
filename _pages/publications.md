@@ -1,10 +1,8 @@
 ---
-layout: archive
-title: "Publications([Google Scholar Profile](https://scholar.google.ca/citations?hl=en&user=smZffVEAAAAJ))"
+title: "Publications ([Google Scholar Profile](https://scholar.google.ca/citations?hl=en&user=smZffVEAAAAJ))"
 permalink: /publications/
 author_profile: true
 ---
-
 
 
 ## 2020
