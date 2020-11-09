@@ -19,7 +19,7 @@ Education
 ======
 * B.S. in Neuroscience, Nanjing University, 2014
 * M.S. in Computational Biology, Harvard University, 2017
-* Ph.D in Computer Science, University of Toronto, 2021 (expected)
+* Ph.D. in Computer Science, University of Toronto, 2021 (expected)
 
 
 Publications
