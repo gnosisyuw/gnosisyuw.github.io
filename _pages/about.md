@@ -32,7 +32,7 @@ Researches
 
 
 * <b>Efficient and Information-Preserving Future Frame Prediction and Beyond</b>. <br>
-<b>Wei Yu</b>, Yichao Lu, Steve Easterbrook, Sanja Fidler. <i>In Proceedings of the 8th International Conference on Learning Representations (**ICLR 2020**)</i>.<br>
+<b>Wei Yu</b>, Yichao Lu, Steve Easterbrook, Sanja Fidler. <i> 8th International Conference on Learning Representations (**ICLR 2020**)</i>.<br>
 [[PDF]](https://openreview.net/pdf?id=B1eY_pVYvB)
 [[Code]](https://github.com/gnosisyuw/CrevNet-Traffic4cast)
 
