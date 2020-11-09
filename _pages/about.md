@@ -22,7 +22,7 @@ Education
 * Ph.D. in Computer Science, University of Toronto, 2021 (expected)
 
 
-Publications
+Researches
 ======
 
 * <b>Action Concept Grounding Network for Semantically-Consistent Video Generation</b>. <br>
@@ -47,7 +47,7 @@ D. Matsuoka, S. Watanabe, K. Sato, S. Kawazoe, <b>Wei Yu</b>, Steve Easterbrook.
 
 Award
 ======
-* 3rd place in Traffic4cast Competition
+* 3rd place in [Traffic4cast](https://www.iarai.ac.at/traffic4cast/2019-Competition/) Competition
 
 Academic Services
 ======
