@@ -32,9 +32,18 @@ Publications
 
 
 * <b>Efficient and Information-Preserving Future Frame Prediction and Beyond</b>. <br>
-<b>Wei Yu</b>, Yichao Lu, Steve Easterbrook, Sanja Fidler. <i>In Proceedings of the 28th International Joint Conference on Artificial Intelligence (**IJCAI 2019**)</i>.<br>
+<b>Wei Yu</b>, Yichao Lu, Steve Easterbrook, Sanja Fidler. <i>In Proceedings of the 8th International Conference on Learning Representations (**ICLR 2020**)</i>.<br>
 [[PDF]](https://openreview.net/pdf?id=B1eY_pVYvB)
 [[Code]](https://github.com/gnosisyuw/CrevNet-Traffic4cast)
+
+* <b>Recovering the parameters underlying the Lorenz-96 chaotic dynamics.</b>. <br>
+Soukayna Mouatadid., Pierre Gentine,<b>Wei Yu</b>, Steve Easterbrook. <i>(**ICML 2019 (workshop)**)</i>.<br>
+[[PDF]](https://arxiv.org/pdf/1906.06786.pdf)
+
+* <b>Application of Deep Learning to
+Estimate Atmospheric Gravity Wave Parameters in Reanalysis Data Sets.</b>. <br>
+D. Matsuoka, S. Watanabe, K. Sato, S. Kawazoe,<b>Wei Yu</b>, Steve Easterbrook. <i>Geophysical Research Letters</i>.<br>
+
 
 Award
 ======
