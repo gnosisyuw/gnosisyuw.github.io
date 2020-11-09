@@ -24,11 +24,24 @@ Education
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+
+* <b>Action Concept Grounding Network for Semantically-Consistent Video Generation</b>. <br>
+<b>Wei Yu</b>, Wenxin Chen, Animesh Garg. <i> Preprint (**under review**)</i>.<br>
+[[PDF]](https://openreview.net/pdf?id=4_57x7xhymn)
+[[Project page]](https://iclr-acgn.github.io/ACGN/)
+
+
+* <b>Efficient and Information-Preserving Future Frame Prediction and Beyond</b>. <br>
+<b>Wei Yu</b>, Yichao Lu, Steve Easterbrook, Sanja Fidler. <i>In Proceedings of the 28th International Joint Conference on Artificial Intelligence (**IJCAI 2019**)</i>.<br>
+[[PDF]](https://openreview.net/pdf?id=B1eY_pVYvB)
+[[Code]](https://github.com/gnosisyuw/CrevNet-Traffic4cast)
+
+Award
+======
+* 3rd place in Traffic4cast Competition
 
 Academic Services
 ======
 * Conference Reviewer: CVPR, NeurIPS.
+
+
