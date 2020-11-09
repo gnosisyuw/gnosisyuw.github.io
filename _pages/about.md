@@ -37,12 +37,12 @@ Publications
 [[Code]](https://github.com/gnosisyuw/CrevNet-Traffic4cast)
 
 * <b>Recovering the parameters underlying the Lorenz-96 chaotic dynamics.</b>. <br>
-Soukayna Mouatadid., Pierre Gentine,<b>Wei Yu</b>, Steve Easterbrook. <i>(**ICML 2019 (workshop)**)</i>.<br>
+Soukayna Mouatadid., Pierre Gentine, <b>Wei Yu</b>, Steve Easterbrook. <i>(**ICML 2019 (workshop)**)</i>.<br>
 [[PDF]](https://arxiv.org/pdf/1906.06786.pdf)
 
 * <b>Application of Deep Learning to
 Estimate Atmospheric Gravity Wave Parameters in Reanalysis Data Sets.</b>. <br>
-D. Matsuoka, S. Watanabe, K. Sato, S. Kawazoe,<b>Wei Yu</b>, Steve Easterbrook. <i>Geophysical Research Letters</i>.<br>
+D. Matsuoka, S. Watanabe, K. Sato, S. Kawazoe, <b>Wei Yu</b>, Steve Easterbrook. <i>Geophysical Research Letters</i>.<br>
 
 
 Award
