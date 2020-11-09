@@ -43,7 +43,7 @@ Soukayna Mouatadid., Pierre Gentine, <b>Wei Yu</b>, Steve Easterbrook. <i>(**ICM
 * <b>Application of Deep Learning to
 Estimate Atmospheric Gravity Wave Parameters in Reanalysis Data Sets.</b>. <br>
 D. Matsuoka, S. Watanabe, K. Sato, S. Kawazoe, <b>Wei Yu</b>, Steve Easterbrook. <i>Geophysical Research Letters</i>.<br>
-
+[[PDF]](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2020GL089436)
 
 Award
 ======
