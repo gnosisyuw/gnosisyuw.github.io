@@ -26,7 +26,7 @@ Researches
 ======
 
 * <b>Modular Action Concept Grounding in Semantic Video Prediction</b>. <br>
-<b>Wei Yu</b>, Wenxin Chen, Songhenh Yin, Steve Easterbrook, Animesh Garg <i> CVPR 2022 </i>.<br>
+<b>Wei Yu</b>, Wenxin Chen, Songhenh Yin, Steve Easterbrook, Animesh Garg <i> (**CVPR 2022**) </i>.<br>
 [[PDF]](https://arxiv.org/abs/2011.11201)
 [[Project page]](http://www.pair.toronto.edu/mac/)
 
