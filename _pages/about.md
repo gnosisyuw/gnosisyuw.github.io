@@ -19,16 +19,16 @@ Education
 ======
 * B.S. in Neuroscience, Nanjing University, 2014
 * M.S. in Computational Biology, Harvard University, 2017
-* Ph.D. in Computer Science, University of Toronto, 2021 (expected)
+* Ph.D. in Computer Science, University of Toronto, 2022 (expected)
 
 
 Researches
 ======
 
-* <b>Action Concept Grounding Network for Semantically-Consistent Video Generation</b>. <br>
-<b>Wei Yu</b>, Wenxin Chen, Animesh Garg. <i> Preprint (**under review**)</i>.<br>
-[[PDF]](https://openreview.net/pdf?id=4_57x7xhymn)
-[[Project page]](https://iclr-acgn.github.io/ACGN/)
+* <b>Modular Action Concept Grounding in Semantic Video Prediction</b>. <br>
+<b>Wei Yu</b>, Wenxin Chen, Songhenh Yin, Steve Easterbrook, Animesh Garg <i> CVPR 2022 </i>.<br>
+[[PDF]](https://arxiv.org/abs/2011.11201)
+[[Project page]](http://www.pair.toronto.edu/mac/)
 
 
 * <b>Efficient and Information-Preserving Future Frame Prediction and Beyond</b>. <br>
