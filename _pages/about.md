@@ -17,9 +17,9 @@ I am now a fourth-year Ph.D. student in Computer Science under the supervision o
 
 Education
 ======
-* B.S. in Neuroscience, Nanjing University, 2014
+* B.S. in Neuroscience, Nanjing University, 2015
 * M.S. in Computational Biology, Harvard University, 2017
-* Ph.D. in Computer Science, University of Toronto, 2022 (expected)
+* Ph.D. in Computer Science, University of Toronto
 
 
 Researches
