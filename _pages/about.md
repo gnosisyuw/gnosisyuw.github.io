@@ -23,7 +23,7 @@ Education
 * Ph.D. in Computer Science, University of Toronto, 2025
 
 
-Researches
+Publications
 ======
 
 * <b>EgoSim: Egocentric Exploration in Virtual Worlds with Multi-modal Conditioning</b>. <br>
