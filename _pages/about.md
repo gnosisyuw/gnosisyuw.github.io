@@ -53,32 +53,32 @@ D. Matsuoka, S. Watanabe, K. Sato, S. Kawazoe, <b>Wei Yu</b>, Steve Easterbrook.
 
 Experience
 ======
-### People, AI and Robotics Group, University of Toronto  
-**Graduate Research Assistant** *(April 2020 – Present)*  
-Mentor: Dr. Animesh Garg  
+* ### People, AI and Robotics Group, University of Toronto  
+  **Graduate Research Assistant** *(April 2020 – Present)*  
+  Mentor: Dr. Animesh Garg  
 
-### Sustainability Informatics Lab, University of Toronto  
-**Graduate Research Assistant** *(August 2018 – Present)*  
-Mentor: Dr. Steve Easterbrook  
+* ### Sustainability Informatics Lab, University of Toronto  
+  **Graduate Research Assistant** *(August 2018 – Present)*  
+  Mentor: Dr. Steve Easterbrook  
 
-### Vector Institute, Toronto  
-**Student Researcher** *(April 2020 – Present)*  
+* ### Vector Institute, Toronto  
+  **Student Researcher** *(April 2020 – Present)*  
 
-### Snap Research, Los Angeles  
-**Research Intern** *(May 2021 – October 2021)*  
-Mentor: Dr. Sergey Tulyakov  
+* ### Snap Research, Los Angeles  
+  **Research Intern** *(May 2021 – October 2021)*  
+  Mentor: Dr. Sergey Tulyakov  
 
-### NVIDIA Toronto AI Lab, Toronto  
-**Research Intern** *(May 2019 – August 2019)*  
-Mentor: Dr. Sanja Fidler  
+* ### NVIDIA Toronto AI Lab, Toronto  
+  **Research Intern** *(May 2019 – August 2019)*  
+  Mentor: Dr. Sanja Fidler  
 
-### Cox Lab, Harvard University  
-**Research Assistant** *(January 2017 – May 2018)*  
-Mentor: Dr. David Cox  
+* ### Cox Lab, Harvard University  
+  **Research Assistant** *(January 2017 – May 2018)*  
+  Mentor: Dr. David Cox  
 
-### CyLab, Carnegie Mellon University (ECE)  
-**Research Assistant** *(May 2016 – September 2016)*  
-Mentor: Dr. Marios Savvides  
+* ### CyLab, Carnegie Mellon University (ECE)  
+  **Research Assistant** *(May 2016 – September 2016)*  
+  Mentor: Dr. Marios Savvides  
 
 Award
 ======
