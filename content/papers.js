@@ -10,6 +10,7 @@ window.papersData = {
       "title": "WristPlay: Reframing Bimanual Robotic Manipulation as Multiplayer Video Generation",
       "authors": "Wei Yu, Liquan Wang, Runjia Qian, Yumeng Li, Weiwei Wan, Animesh Garg",
       "venue": "In Progress",
+      "media": "media/wristplay.mp4",
       "abstract": "A new framework that reframes bimanual robotic manipulation tasks as a multiplayer video generation problem, enabling richer coordination and control."
     },
     {
