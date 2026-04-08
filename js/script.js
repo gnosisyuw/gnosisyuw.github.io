@@ -27,11 +27,7 @@ function initTheme() {
         
         const profileImage = document.querySelector('.profile-image');
         if (profileImage) {
-            if (theme === 'dark') {
-                profileImage.src = 'media/profile_dark.png';
-            } else {
-                profileImage.src = 'media/profile.png';
-            }
+            profileImage.src = 'media/profile.jpg';
         }
 
         if (theme === 'dark') {
@@ -62,13 +58,12 @@ let publications = [];
 let debounceTimer;
 
 function loadAndDisplayPublications() {
-    fetch("content/papers.json?" + new Date().getTime())
-        .then((response) => response.json())
-        .then((data) => {
-            publications = data.papers;
-            displayPublications(publications);
-        })
-        .catch((error) => console.error("Error loading publications:", error));
+    if (window.papersData) {
+        publications = window.papersData.papers;
+        displayPublications(publications);
+    } else {
+        console.error("papers.js not loaded");
+    }
 }
 
 function toggleAbstract(index) {
@@ -94,8 +89,9 @@ function createMediaElement(paper) {
         const tag = isVideo ? "video" : "img";
         const extraAttrs = isVideo ? 'muted playsinline loop preload="none"' : '';
         const alt = isVideo ? '' : `alt="${paper.title} Preview"`;
+        const zoomStyle = paper.mediaZoom ? ` style="transform:scale(${paper.mediaZoom});transform-origin:center center;"` : '';
 
-        return `<${tag} class="${className}" data-src="${paper.media}" ${extraAttrs} ${alt} onerror="this.style.display='none'"></${tag}>`;
+        return `<${tag} class="${className}" data-src="${paper.media}" ${extraAttrs} ${alt}${zoomStyle} onerror="this.style.display='none'"></${tag}>`;
     }
 
     return `
@@ -114,7 +110,7 @@ function displayPublications(papers) {
     
     papers.forEach((paper, index) => {
         const mediaContent = createMediaElement(paper);
-        const authorsHtml = paper.authors.replace("Ashkan Mirzaei", "<strong>Ashkan Mirzaei</strong>");
+        const authorsHtml = paper.authors.replace("Wei Yu", "<strong>Wei Yu</strong>");
         
         const colDiv = document.createElement('div');
         colDiv.className = 'col-md-12';
@@ -229,10 +225,11 @@ function initLazyLoading() {
  * Experience Section Logic
  */
 function loadAndDisplayExperience() {
-    fetch("content/experience.json?" + new Date().getTime())
-        .then((response) => response.json())
-        .then((data) => displayExperience(data.experience))
-        .catch((error) => console.error("Error loading experience data:", error));
+    if (window.experienceData) {
+        displayExperience(window.experienceData.experience);
+    } else {
+        console.error("experience.js not loaded");
+    }
 }
 
 function displayExperience(experience) {
@@ -246,12 +243,13 @@ function displayExperience(experience) {
         div.className = 'timeline-item';
         
         const bgStyle = item.logo_bg ? `style="background-color: ${item.logo_bg}"` : '';
+        const crossOriginAttr = item.logo_bg ? '' : 'crossorigin="anonymous"';
         const onloadAttr = item.logo_bg ? '' : 'onload="adjustLogoBackground(this)"';
 
         div.innerHTML = `
             <div class="d-flex align-items-center w-100">
                 <div class="experience-logo-container me-3" ${bgStyle}>
-                    <img src="${item.logo}" alt="${item.company}" class="experience-logo" crossorigin="anonymous" ${onloadAttr}>
+                    <img src="${item.logo}" alt="${item.company}" class="experience-logo" ${crossOriginAttr} ${onloadAttr}>
                 </div>
                 <div>
                     <h4 class="mb-1">${item.company}</h4>

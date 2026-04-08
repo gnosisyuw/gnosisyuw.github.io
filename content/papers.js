@@ -1,0 +1,71 @@
+window.papersData = {
+  "papers": [
+    {
+      "title": "MosaicMem V2: Object-Centric Controllability on a Memory Canvas for AI Game Worlds",
+      "authors": "Wei Yu, Runjia Qian, Dennis Anthony, Yumeng Li, Weiwei Wan, Animesh Garg",
+      "venue": "In Progress",
+      "abstract": "Object-centric controllable generation on a persistent memory canvas, targeting interactive AI game world creation."
+    },
+    {
+      "title": "WristPlay: Reframing Bimanual Robotic Manipulation as Multiplayer Video Generation",
+      "authors": "Wei Yu, Liquan Wang, Runjia Qian, Yumeng Li, Weiwei Wan, Animesh Garg",
+      "venue": "In Progress",
+      "abstract": "A new framework that reframes bimanual robotic manipulation tasks as a multiplayer video generation problem, enabling richer coordination and control."
+    },
+    {
+      "title": "MosaicMem: Hybrid Spatial Memory for Controllable Video World Models",
+      "authors": "Wei Yu, Runjia Qian, Yumeng Li, Liquan Wang, Songheng Yin, Sri Siddarth Chakaravarthy P, Dennis Anthony, Yang Ye, Yidi Li, Weiwei Wan, Animesh Garg",
+      "venue": "ECCV 2026 (Submitted)",
+      "url": "https://mosaicmem.github.io/mosaicmem/",
+      "media": "media/mosaicmem.mp4",
+      "abstract": "Autoregressive interactive minute-long video generation with promptable world events, using a hybrid spatial memory architecture for controllable video world models."
+    },
+    {
+      "title": "EgoSim: Egocentric Exploration in Virtual Worlds with Multi-modal Conditioning",
+      "authors": "Wei Yu, Songheng Yin, Steve Easterbrook, Animesh Garg",
+      "venue": "ICLR 2025",
+      "url": "https://egosim.github.io/EgoSim/",
+      "media": "media/egosim.mp4",
+      "mediaZoom": 1.2,
+      "abstract": "A framework for egocentric exploration in virtual worlds, enabling agents to navigate and interact using multi-modal conditioning signals. Presented as an oral at the ICML 1st Workshop on Controllable Video Generation."
+    },
+    {
+      "title": "Modular Action Concept Grounding in Semantic Video Prediction",
+      "authors": "Wei Yu, Wenxin Chen, Songheng Yin, Steve Easterbrook, Animesh Garg",
+      "venue": "CVPR 2022",
+      "url": "https://cvpr-mac.github.io/MAC/",
+      "media": "media/mac.gif",
+      "abstract": "One of the earliest works to investigate compositional text-to-video generation. We propose grounding modular action concepts in a semantic video prediction framework, enabling structured, interpretable video synthesis driven by language."
+    },
+    {
+      "title": "Efficient and Information-Preserving Future Frame Prediction and Beyond",
+      "authors": "Wei Yu, Yichao Lu, Steve Easterbrook, Sanja Fidler",
+      "venue": "ICLR 2020",
+      "abstract": "The first video generation model with spatial compression in the latent space. This work also discovered what we now call generative test-time training, demonstrating efficiency and strong generalization in future frame prediction."
+    },
+    {
+      "title": "CrevNet: Conditionally Reversible Video Prediction",
+      "authors": "Wei Yu, Yichao Lu, Steve Easterbrook, Sanja Fidler",
+      "venue": "NeurIPS (Traffic4Cast)",
+      "abstract": "A conditionally reversible architecture for video prediction. Achieved 3rd place in the Traffic4Cast Challenge at NeurIPS, demonstrating strong generalization to complex real-world spatiotemporal forecasting tasks."
+    },
+    {
+      "title": "Application of Deep Learning to Estimate Atmospheric Gravity Wave Parameters in Reanalysis Data Sets",
+      "authors": "Daisuke Matsuoka, Shingo Watanabe, Kaoru Sato, Sho Kawazoe, Wei Yu, Steve Easterbrook",
+      "venue": "Geophysical Research Letters",
+      "abstract": "Application of deep learning methods to estimate parameters of atmospheric gravity waves from reanalysis datasets, bridging machine learning and climate science."
+    },
+    {
+      "title": "Recovering the Parameters Underlying the Lorenz-96 Chaotic Dynamics",
+      "authors": "Soukayna Mouatadid, Pierre Gentine, Wei Yu, Steve Easterbrook",
+      "venue": "ICML 2019 Workshop",
+      "abstract": "A machine learning approach to recovering governing parameters of the Lorenz-96 dynamical system, with implications for climate modeling and chaotic system identification. Presented at the ICML 2019 Workshop on Climate Change."
+    },
+    {
+      "title": "See, Plan, Predict: Language-Guided Cognitive Planning with Video Prediction",
+      "authors": "Maria Attarian, Advaya Gupta, Ziyi Zhou, Wei Yu, Igor Gilitschenski, Animesh Garg",
+      "venue": "Manuscript",
+      "abstract": "A language-guided cognitive planning framework that leverages video prediction as a world model, enabling agents to reason about future states and execute plans from natural language instructions."
+    }
+  ]
+};

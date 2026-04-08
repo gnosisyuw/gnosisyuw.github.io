@@ -1,8 +1,6 @@
-# Academic personal website template
+# Wei Yu — Personal Academic Website
 
-Feel free to use this template for your own website, but please reference this repo (by Ashkan Mirzaei) in your page. 
-
-# Locally hosting the website for test
+## Local development
 
 ```
 python3 -m http.server 8000

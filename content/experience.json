@@ -1,46 +1,53 @@
 {
   "experience": [
     {
-      "title": "Math Olympiad Instructor",
-      "company": "Allameh Helli Highschool",
-      "time": "Sep 2016 - July 2020",
-      "logo": "media/logos/helli.png",
-      "logo_bg": "#000000"
+      "title": "Research Assistant",
+      "company": "CyLab, CMU ECE",
+      "time": "May 2016 - Sep 2016",
+      "logo": "media/logos/cmu.png",
+      "logo_bg": "#ffffff"
     },
     {
       "title": "Research Assistant",
-      "company": "University of Toronto (TISL)",
-      "time": "Sep 2021 - May 2025", 
+      "company": "Cox Lab, Harvard University",
+      "time": "Jan 2017 - May 2018",
+      "logo": "media/logos/harvard.png",
+      "logo_bg": "#ffffff"
+    },
+    {
+      "title": "Research Intern",
+      "company": "NVIDIA Toronto AI Lab",
+      "time": "May 2019 - Aug 2019",
+      "logo": "media/logos/nvidia_small.png",
+      "logo_bg": "transparent"
+    },
+    {
+      "title": "Graduate Research Assistant",
+      "company": "University of Toronto (PAIR & SIL)",
+      "time": "Aug 2018 - Aug 2025",
       "logo": "media/logos/uoft.png",
       "logo_bg": "transparent"
     },
     {
-      "title": "Research Intern (MITACS)",
-      "company": "Samsung",
-      "time": "Jul 2022 - Sep 2023",
-      "logo": "media/logos/samsung.svg",
+      "title": "Student Researcher",
+      "company": "Vector Institute",
+      "time": "Apr 2020 - Dec 2025",
+      "logo": "media/logos/vector.png",
+      "logo_bg": "#ffffff"
+    },
+    {
+      "title": "Research Intern",
+      "company": "Snap Research",
+      "time": "May 2021 - Oct 2021",
+      "logo": "media/logos/snap.png",
       "logo_bg": "transparent"
     },
     {
       "title": "Research Intern",
-      "company": "Nvidia",
-      "time": "Sep 2023 - Nov 2024",
-      "logo": "media/logos/nvidia_small.png",
-      "logo_bg": "transparent"
-    }, 
-    {
-      "title": "Research Scientist, Gen AI",
-      "company": "Snap Inc.",
-      "time": "Feb 2025 - Jan 2026",
-      "logo": "media/logos/snap.png",
-      "logo_bg": "transparent"
-    }, 
-    {
-      "title": "Senior Gen AI Research",
-      "company": "Nvidia",
-      "time": "Jan 2026 - Present",
-      "logo": "media/logos/nvidia_small.png",
-      "logo_bg": "transparent"
+      "company": "ByteDance Seed",
+      "time": "Jul 2025 - Oct 2025",
+      "logo": "media/logos/bytedance.png",
+      "logo_bg": "#ffffff"
     }
   ]
 }
