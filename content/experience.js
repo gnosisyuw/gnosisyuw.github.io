@@ -1,12 +1,6 @@
 window.experienceData = {
   "experience": [
     {
-      "title": "Research Scientist",
-      "company": "ByteDance Seed",
-      "logo": "media/logos/bytedance.png",
-      "logo_bg": "#ffffff"
-    },
-    {
       "title": "Research Assistant",
       "company": "CyLab, CMU ECE",
       "time": "May 2016 - Sep 2016",

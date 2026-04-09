@@ -103,7 +103,7 @@ function createMediaElement(paper) {
     `;
 }
 
-const PUBLICATIONS_INITIAL_COUNT = 5;
+const PUBLICATIONS_INITIAL_COUNT = 7;
 let publicationsExpanded = false;
 
 function displayPublications(papers, isFiltered = false) {
