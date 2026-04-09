@@ -5,6 +5,8 @@ window.papersData = {
       "authors": "Wei Yu, Runjia Qian, Yumeng Li, Liquan Wang, Songheng Yin, Sri Siddarth Chakaravarthy P, Dennis Anthony, Yang Ye, Yidi Li, Weiwei Wan, Animesh Garg",
       "venue": "ECCV 2026 (Submitted)",
       "url": "https://mosaicmem.github.io/mosaicmem/",
+      "paper": "https://huggingface.co/papers/2603.17117",
+      "twitter": "https://x.com/GnosisYu/status/2035022202198765655",
       "media": "media/mosaicmem.mp4",
       "abstract": "Autoregressive interactive minute-long video generation with promptable world events, using a hybrid spatial memory architecture for controllable video world models."
     },
@@ -27,6 +29,7 @@ window.papersData = {
       "authors": "Wei Yu, Songheng Yin, Steve Easterbrook, Animesh Garg",
       "venue": "ICLR 2025",
       "url": "https://egosim.github.io/EgoSim/",
+      "paper": "https://openreview.net/pdf?id=zAyS5aRKV8",
       "media": "media/egosim.mp4",
       "mediaZoom": 1.2,
       "abstract": "A framework for egocentric exploration in virtual worlds, enabling agents to navigate and interact using multi-modal conditioning signals. Presented as an oral at the ICML 1st Workshop on Controllable Video Generation."
@@ -36,6 +39,8 @@ window.papersData = {
       "authors": "Wei Yu, Wenxin Chen, Songheng Yin, Steve Easterbrook, Animesh Garg",
       "venue": "CVPR 2022",
       "url": "https://cvpr-mac.github.io/MAC/",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2022/papers/Yu_Modular_Action_Concept_Grounding_in_Semantic_Video_Prediction_CVPR_2022_paper.pdf",
+      "twitter": "https://x.com/animesh_garg/status/1332448815404572673",
       "media": "media/mac.mp4",
       "abstract": "One of the earliest works to investigate compositional text-to-video generation. We propose grounding modular action concepts in a semantic video prediction framework, enabling structured, interpretable video synthesis driven by language."
     },
@@ -43,6 +48,7 @@ window.papersData = {
       "title": "Efficient and Information-Preserving Future Frame Prediction and Beyond",
       "authors": "Wei Yu, Yichao Lu, Steve Easterbrook, Sanja Fidler",
       "venue": "ICLR 2020",
+      "paper": "https://openreview.net/pdf?id=B1eY_pVYvB",
       "media": "media/efficient.gif",
       "abstract": "The first video generation model with spatial compression in the latent space. This work also discovered what we now call generative test-time training, demonstrating efficiency and strong generalization in future frame prediction."
     },
@@ -50,6 +56,7 @@ window.papersData = {
       "title": "CrevNet: Conditionally Reversible Video Prediction",
       "authors": "Wei Yu, Yichao Lu, Steve Easterbrook, Sanja Fidler",
       "venue": "NeurIPS (Traffic4Cast)",
+      "paper": "https://arxiv.org/abs/1910.11577",
       "media": "media/crevnet.gif",
       "abstract": "A conditionally reversible architecture for video prediction. Achieved 3rd place in the Traffic4Cast Challenge at NeurIPS, demonstrating strong generalization to complex real-world spatiotemporal forecasting tasks."
     },
@@ -57,6 +64,7 @@ window.papersData = {
       "title": "Application of Deep Learning to Estimate Atmospheric Gravity Wave Parameters in Reanalysis Data Sets",
       "authors": "Daisuke Matsuoka, Shingo Watanabe, Kaoru Sato, Sho Kawazoe, Wei Yu, Steve Easterbrook",
       "venue": "Geophysical Research Letters",
+      "paper": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020GL089436",
       "media": "media/weather.png",
       "abstract": "Application of deep learning methods to estimate parameters of atmospheric gravity waves from reanalysis datasets, bridging machine learning and climate science."
     },
@@ -64,6 +72,7 @@ window.papersData = {
       "title": "Recovering the Parameters Underlying the Lorenz-96 Chaotic Dynamics",
       "authors": "Soukayna Mouatadid, Pierre Gentine, Wei Yu, Steve Easterbrook",
       "venue": "ICML 2019 Workshop",
+      "paper": "https://arxiv.org/abs/1906.06786",
       "media": "media/soukayna.png",
       "abstract": "A machine learning approach to recovering governing parameters of the Lorenz-96 dynamical system, with implications for climate modeling and chaotic system identification. Presented at the ICML 2019 Workshop on Climate Change."
     },
@@ -71,6 +80,8 @@ window.papersData = {
       "title": "See, Plan, Predict: Language-Guided Cognitive Planning with Video Prediction",
       "authors": "Maria Attarian, Advaya Gupta, Ziyi Zhou, Wei Yu, Igor Gilitschenski, Animesh Garg",
       "venue": "Manuscript",
+      "url": "https://see-pp.github.io/",
+      "paper": "https://arxiv.org/abs/2210.03825",
       "media": "media/see.mp4",
       "abstract": "A language-guided cognitive planning framework that leverages video prediction as a world model, enabling agents to reason about future states and execute plans from natural language instructions."
     }

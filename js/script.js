@@ -123,12 +123,22 @@ function displayPublications(papers) {
         const cardClass = `card publication-card publication-card-custom ${paper.abstract ? "pointer" : ""}`;
         const onClickAttr = paper.abstract ? `onclick="toggleAbstract(${index})"` : "";
         
-        const projectLink = paper.url 
-            ? `<div class="mt-2">
-                 <a href="${paper.url}" target="_blank" class="project-link" onclick="event.stopPropagation()">
-                   <i class="fas fa-external-link-alt"></i>Project Page
-                 </a>
-               </div>` 
+        const projectLink = paper.url
+            ? `<a href="${paper.url}" target="_blank" class="project-link" onclick="event.stopPropagation()">
+                 <i class="fas fa-external-link-alt"></i>Project Page
+               </a>`
+            : "";
+
+        const paperLink = paper.paper
+            ? `<a href="${paper.paper}" target="_blank" class="project-link" onclick="event.stopPropagation()">
+                 <i class="fas fa-file-alt"></i>Paper
+               </a>`
+            : "";
+
+        const twitterLink = paper.twitter
+            ? `<a href="${paper.twitter}" target="_blank" class="project-link" onclick="event.stopPropagation()">
+                 <i class="fa-brands fa-x-twitter"></i>Post
+               </a>`
             : "";
             
         const abstractSection = paper.abstract
@@ -153,7 +163,7 @@ function displayPublications(papers) {
                         <span class="venue-badge">${paper.venue}</span>
                         <h5 class="mb-1">${paper.title}</h5>
                         <p class="mb-0 small">${authorsHtml}</p>
-                        ${projectLink}
+                        ${(projectLink || paperLink || twitterLink) ? `<div class="mt-2 d-flex gap-3">${paperLink}${projectLink}${twitterLink}</div>` : ""}
                         ${abstractSection}
                     </div>
                 </div>

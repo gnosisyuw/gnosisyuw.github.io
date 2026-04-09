@@ -24,7 +24,7 @@ window.experienceData = {
     {
       "title": "Graduate Research Assistant",
       "company": "University of Toronto (PAIR & SIL)",
-      "time": "Aug 2018 - Aug 2025",
+      "time": "Sep 2018 - Aug 2025",
       "logo": "media/logos/uoft.png",
       "logo_bg": "transparent"
     },
