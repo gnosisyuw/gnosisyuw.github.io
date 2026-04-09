@@ -43,9 +43,9 @@ window.experienceData = {
       "logo_bg": "transparent"
     },
     {
-      "title": "Research Intern",
+      "title": "Research Scientist",
       "company": "ByteDance Seed",
-      "time": "May 2025 - Aug 2025",
+      "time": "Sep 2025 - Jan 2026",
       "logo": "media/logos/bytedance.png",
       "logo_bg": "#ffffff"
     }
