@@ -45,7 +45,7 @@ window.experienceData = {
     {
       "title": "Research Intern",
       "company": "ByteDance Seed",
-      "time": "Jul 2025 - Oct 2025",
+      "time": "May 2025 - Aug 2025",
       "logo": "media/logos/bytedance.png",
       "logo_bg": "#ffffff"
     }
