@@ -3,26 +3,12 @@ window.papersData = {
     {
       "title": "MosaicMem: Hybrid Spatial Memory for Controllable Video World Models",
       "authors": "Wei Yu, Runjia Qian, Yumeng Li, Liquan Wang, Songheng Yin, Sri Siddarth Chakaravarthy P, Dennis Anthony, Yang Ye, Yidi Li, Weiwei Wan, Animesh Garg",
-      "venue": "ECCV 2026 (Submitted)",
+      "venue": "Under Review",
       "url": "https://mosaicmem.github.io/mosaicmem/",
       "paper": "https://huggingface.co/papers/2603.17117",
       "twitter": "https://x.com/GnosisYu/status/2035022202198765655",
       "media": "media/mosaicmem.mp4",
       "abstract": "Autoregressive interactive minute-long video generation with promptable world events, using a hybrid spatial memory architecture for controllable video world models."
-    },
-    {
-      "title": "MosaicMem V2: Object-Centric Controllability on a Memory Canvas for AI Game Worlds",
-      "authors": "Wei Yu, Runjia Qian, Dennis Anthony, Yumeng Li, Weiwei Wan, Animesh Garg",
-      "venue": "In Progress",
-      "media": "media/mosaicmemv2.mp4",
-      "abstract": "Object-centric controllable generation on a persistent memory canvas, targeting interactive AI game world creation."
-    },
-    {
-      "title": "WristPlay: Reframing Bimanual Robotic Manipulation as Multiplayer Video Generation",
-      "authors": "Wei Yu, Liquan Wang, Runjia Qian, Yumeng Li, Weiwei Wan, Animesh Garg",
-      "venue": "In Progress",
-      "media": "media/wristplay.mp4",
-      "abstract": "A new framework that reframes bimanual robotic manipulation tasks as a multiplayer video generation problem, enabling richer coordination and control."
     },
     {
       "title": "EgoSim: Egocentric Exploration in Virtual Worlds with Multi-modal Conditioning",
@@ -55,7 +41,7 @@ window.papersData = {
     {
       "title": "CrevNet: Conditionally Reversible Video Prediction",
       "authors": "Wei Yu, Yichao Lu, Steve Easterbrook, Sanja Fidler",
-      "venue": "NeurIPS (Traffic4Cast)",
+      "venue": "NeurIPS 2019 (Traffic4Cast)",
       "paper": "https://arxiv.org/abs/1910.11577",
       "media": "media/crevnet.gif",
       "abstract": "A conditionally reversible architecture for video prediction. Achieved 3rd place in the Traffic4Cast Challenge at NeurIPS, demonstrating strong generalization to complex real-world spatiotemporal forecasting tasks."
@@ -69,6 +55,15 @@ window.papersData = {
       "abstract": "Application of deep learning methods to estimate parameters of atmospheric gravity waves from reanalysis datasets, bridging machine learning and climate science."
     },
     {
+      "title": "See, Plan, Predict: Language-Guided Cognitive Planning with Video Prediction",
+      "authors": "Maria Attarian, Advaya Gupta, Ziyi Zhou, Wei Yu, Igor Gilitschenski, Animesh Garg",
+      "venue": "Manuscript",
+      "url": "https://see-pp.github.io/",
+      "paper": "https://arxiv.org/abs/2210.03825",
+      "media": "media/see.mp4",
+      "abstract": "A language-guided cognitive planning framework that leverages video prediction as a world model, enabling agents to reason about future states and execute plans from natural language instructions."
+    },
+    {
       "title": "Recovering the Parameters Underlying the Lorenz-96 Chaotic Dynamics",
       "authors": "Soukayna Mouatadid, Pierre Gentine, Wei Yu, Steve Easterbrook",
       "venue": "ICML 2019 Workshop",
@@ -77,13 +72,18 @@ window.papersData = {
       "abstract": "A machine learning approach to recovering governing parameters of the Lorenz-96 dynamical system, with implications for climate modeling and chaotic system identification. Presented at the ICML 2019 Workshop on Climate Change."
     },
     {
-      "title": "See, Plan, Predict: Language-Guided Cognitive Planning with Video Prediction",
-      "authors": "Maria Attarian, Advaya Gupta, Ziyi Zhou, Wei Yu, Igor Gilitschenski, Animesh Garg",
-      "venue": "Manuscript",
-      "url": "https://see-pp.github.io/",
-      "paper": "https://arxiv.org/abs/2210.03825",
-      "media": "media/see.mp4",
-      "abstract": "A language-guided cognitive planning framework that leverages video prediction as a world model, enabling agents to reason about future states and execute plans from natural language instructions."
+      "title": "MosaicMem V2: Object-Centric Controllability on a Memory Canvas for AI Game Worlds",
+      "authors": "Wei Yu, Runjia Qian, Dennis Anthony, Yumeng Li, Weiwei Wan, Animesh Garg",
+      "venue": "In Progress",
+      "media": "media/mosaicmemv2.mp4",
+      "abstract": "Object-centric controllable generation on a persistent memory canvas, targeting interactive AI game world creation."
+    },
+    {
+      "title": "WristPlay: Reframing Bimanual Robotic Manipulation as Multiplayer Video Generation",
+      "authors": "Wei Yu, Liquan Wang, Runjia Qian, Yumeng Li, Weiwei Wan, Animesh Garg",
+      "venue": "In Progress",
+      "media": "media/wristplay.mp4",
+      "abstract": "A new framework that reframes bimanual robotic manipulation tasks as a multiplayer video generation problem, enabling richer coordination and control."
     }
   ]
 };

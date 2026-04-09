@@ -1,6 +1,12 @@
 window.experienceData = {
   "experience": [
     {
+      "title": "Research Scientist",
+      "company": "ByteDance Seed",
+      "logo": "media/logos/bytedance.png",
+      "logo_bg": "#ffffff"
+    },
+    {
       "title": "Research Assistant",
       "company": "CyLab, CMU ECE",
       "time": "May 2016 - Sep 2016",
@@ -24,7 +30,7 @@ window.experienceData = {
     {
       "title": "Graduate Research Assistant",
       "company": "University of Toronto (PAIR & SIL)",
-      "time": "Sep 2018 - Aug 2025",
+      "time": "Sep 2018 - 2025",
       "logo": "media/logos/uoft.png",
       "logo_bg": "transparent"
     },
@@ -41,13 +47,6 @@ window.experienceData = {
       "time": "May 2021 - Oct 2021",
       "logo": "media/logos/snap.png",
       "logo_bg": "transparent"
-    },
-    {
-      "title": "Research Scientist",
-      "company": "ByteDance Seed",
-      "time": "Sep 2025 - Jan 2026",
-      "logo": "media/logos/bytedance.png",
-      "logo_bg": "#ffffff"
     }
   ]
 };

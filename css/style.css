@@ -495,8 +495,34 @@ h2 {
 
 .project-link:hover {
     background: var(--hover-bg);
-    transform: translateY(-1px); 
+    transform: translateY(-1px);
     color: var(--text-primary);
+    box-shadow: 0 8px 20px var(--shadow-md);
+}
+
+.publication-hidden {
+    display: none !important;
+}
+
+.publications-toggle-btn {
+    background: var(--badge-bg);
+    color: var(--text-secondary);
+    border: 1px solid var(--card-border);
+    border-radius: 100px;
+    padding: 0.5rem 1.6rem;
+    font-size: 0.875rem;
+    font-family: var(--bs-body-font-family);
+    cursor: pointer;
+    align-items: center;
+    gap: 0.4rem;
+    backdrop-filter: blur(var(--glass-blur-sm)) saturate(var(--glass-saturate));
+    -webkit-backdrop-filter: blur(var(--glass-blur-sm)) saturate(var(--glass-saturate));
+    transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+
+.publications-toggle-btn:hover {
+    background: var(--hover-bg);
+    transform: translateY(-1px);
     box-shadow: 0 8px 20px var(--shadow-md);
 }
 

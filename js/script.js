@@ -103,26 +103,27 @@ function createMediaElement(paper) {
     `;
 }
 
-function displayPublications(papers) {
+const PUBLICATIONS_INITIAL_COUNT = 5;
+let publicationsExpanded = false;
+
+function displayPublications(papers, isFiltered = false) {
     const container = document.getElementById("publications-container");
     container.innerHTML = "";
     const fragment = document.createDocumentFragment();
-    
+
     papers.forEach((paper, index) => {
         const mediaContent = createMediaElement(paper);
         const authorsHtml = paper.authors.replace("Wei Yu", "<strong>Wei Yu</strong>");
-        
+
         const colDiv = document.createElement('div');
         colDiv.className = 'col-md-12';
-        
-        // Use separate logic for onclick to avoid inline event handler string mess
-        // But for simplicity with existing pattern, we'll keep the structure but clean it up.
-        // Better yet, we attach the event listener after creation if possible, 
-        // but here we are building string HTML.
-        
+        if (!isFiltered && index >= PUBLICATIONS_INITIAL_COUNT && !publicationsExpanded) {
+            colDiv.classList.add('publication-hidden');
+        }
+
         const cardClass = `card publication-card publication-card-custom ${paper.abstract ? "pointer" : ""}`;
         const onClickAttr = paper.abstract ? `onclick="toggleAbstract(${index})"` : "";
-        
+
         const projectLink = paper.url
             ? `<a href="${paper.url}" target="_blank" class="project-link" onclick="event.stopPropagation()">
                  <i class="fas fa-external-link-alt"></i>Project Page
@@ -140,7 +141,7 @@ function displayPublications(papers) {
                  <i class="fa-brands fa-x-twitter"></i>Post
                </a>`
             : "";
-            
+
         const abstractSection = paper.abstract
             ? `<div class="abstract-content" id="abstract-${index}">
                  <p class="mt-2 small">${paper.abstract}</p>
@@ -169,13 +170,30 @@ function displayPublications(papers) {
                 </div>
             </div>
         </div>`;
-        
+
         fragment.appendChild(colDiv);
     });
-    
+
     container.appendChild(fragment);
+
+    // Show/hide toggle button
+    const toggleBtn = document.getElementById("publications-toggle");
+    if (!isFiltered && papers.length > PUBLICATIONS_INITIAL_COUNT) {
+        toggleBtn.style.display = "flex";
+        toggleBtn.innerHTML = publicationsExpanded
+            ? `<i class="fas fa-chevron-up me-2"></i>Show Less`
+            : `<i class="fas fa-chevron-down me-2"></i>Show More (${papers.length - PUBLICATIONS_INITIAL_COUNT} more)`;
+    } else {
+        toggleBtn.style.display = "none";
+    }
+
     initLazyLoading();
 }
+
+window.togglePublications = function() {
+    publicationsExpanded = !publicationsExpanded;
+    displayPublications(publications);
+};
 
 function filterPublications() {
     const searchInput = document.getElementById("publicationSearch");
@@ -188,7 +206,8 @@ function filterPublications() {
         paper.venue.toLowerCase().includes(searchTerm) ||
         (paper.abstract && paper.abstract.toLowerCase().includes(searchTerm))
     );
-    displayPublications(filteredPapers);
+    const isFiltered = searchTerm.length > 0;
+    displayPublications(filteredPapers, isFiltered);
 }
 
 // Make accessible globally for the input oninput
@@ -264,7 +283,7 @@ function displayExperience(experience) {
                 <div>
                     <h4 class="mb-1">${item.company}</h4>
                     <p class="mb-1">${item.title}</p>
-                    <p class="time-range mb-0">${item.time}</p>
+                    ${item.time ? `<p class="time-range mb-0">${item.time}</p>` : ''}
                 </div>
             </div>
         `;

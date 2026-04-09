@@ -97,7 +97,7 @@
                         <div class="d-flex flex-column">
                             <div class="d-flex flex-column flex-sm-row justify-content-between align-items-start align-items-sm-center">
                                 <h4 class="mb-1 mb-sm-0">University of Toronto</h4>
-                                <span class="text-gray-500">Sep 2018 – Aug 2025</span>
+                                <span class="text-gray-500">Sep 2018 – 2025</span>
                             </div>
                             <span class="text-gray-600">Ph.D. in Computer Science &nbsp;·&nbsp; GPA: 4.00/4.00</span>
                             <span class="text-gray-500 small mt-1">Supervisors: Animesh Garg &amp; Steve Easterbrook</span>
@@ -126,6 +126,9 @@
                 <input type="text" id="publicationSearch" class="search-input" placeholder="Search publications by title, authors, venue, or abstract..." oninput="debouncedFilterPublications()">
             </div>
             <div class="row g-3" id="publications-container"></div>
+            <div class="d-flex justify-content-center mt-3">
+                <button id="publications-toggle" class="publications-toggle-btn" onclick="togglePublications()" style="display:none;"></button>
+            </div>
         </section>
 
         <!-- Awards Section -->
